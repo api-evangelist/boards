@@ -1,9 +1,25 @@
 aid: boards
 name: Boards
-description: 'Boards is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Boards is a mobile-first collaboration and duplication platform for network marketing
+  and direct sales teams. It lets leaders turn what works for them into a simple, repeatable system
+  that new team members can follow, sharing content, training, and workflows so a business can scale
+  beyond its founder. The product centers on team alignment, faster onboarding of new members, and
+  giving distributors a single place with everything they need to succeed, alongside a Success Academy
+  for training and a brand and referral program. Boards is backed by Bessemer Venture Partners. It
+  publishes no public API, developer portal, or SDKs; its surface is a consumer web and mobile app.'
 url: https://raw.githubusercontent.com/api-evangelist/boards/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/b17a8e_2378b409375446ae9013da01e9db7260~mv2.jpg/v1/fill/w_2400,h_1260,al_c/b17a8e_2378b409375446ae9013da01e9db7260~mv2.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Network Marketing
+- Direct Sales
+- Collaboration
+- Team Enablement
+- Mobile App
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.boards.com/
+- type: Blog
+  url: https://www.boards.com/blog
+- type: Support
+  url: https://support.boards.so/hc/en-us
+- type: Pricing
+  url: https://app.boards.com/plans
+- type: SignUp
+  url: https://boards.onelink.me/0fu0/home
+- type: Login
+  url: https://boards.onelink.me/0fu0/login
+- type: TermsOfService
+  url: https://www.boards.com/terms
+- type: PrivacyPolicy
+  url: https://www.boards.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
