@@ -8,6 +8,17 @@ description: 'Boards is a mobile-first collaboration and duplication platform fo
   for training and a brand and referral program. Boards is backed by Bessemer Venture Partners. It
   publishes no public API, developer portal, or SDKs; its surface is a consumer web and mobile app.'
 url: https://raw.githubusercontent.com/api-evangelist/boards/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
